@@ -69,7 +69,7 @@
             @if (Route::has('login'))
                 <div class="top-right links">
                     @if (Auth::check())
-                        <a href="{{ url('/home') }}">Home</a>
+                        <a href="{{ url('/home') }}">Articles Home</a>
                     @else
                         <a href="{{ url('/login') }}">Login</a>
                         <a href="{{ url('/register') }}">Register</a>
@@ -79,15 +79,15 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Articles
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://github.com/SAMIBETTAYEB">GitHub</a>
+                    <a href="https://www.youtube.com/samibettayeb">Youtube</a>
+                    <a href="https://www.facebook.com/samibettayeb">Facebook</a>
+                </div>
+                    <h3 style="background-color:#EEE; margin:50px; padding:10px;">By: Sami Bettayeb</h3>
                 </div>
             </div>
         </div>
