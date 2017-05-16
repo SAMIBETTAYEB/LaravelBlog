@@ -13,7 +13,7 @@
             </tr>
             @foreach($articles as $article)
             <tr>
-                <td><a href="article/{{$article->id}}">{{$article->title}} ({{$article->comments->count()}})</a></td>
+                <td><a href="article/{{$article->id}}">{{$article->title}} <span class="badge">{{$article->comments->count()}}</span></a></td>
                 <td>{{$article->created_at}}</td>
                 <td><a href="/articles/edit/{{$article->id}}">Edit</a></td>
             </tr>
